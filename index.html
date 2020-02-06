@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Web Client Demo</title>
+    <title>Converse</title>
     <noscript><p><img src="//stats.opkode.com/piwik.php?idsite=5" style="border:0;" alt="" /></p></noscript>
     <link type="text/css" rel="stylesheet" media="screen" href="https://cdn.conversejs.org/5.0.1/dist/converse.min.css" />
-    <script src="/static/libsignal-protocol.js"></script>
+    <script src="libsignal-protocol.js"></script>
     <script src="https://cdn.conversejs.org/5.0.1/dist/converse.min.js"></script>
 </head>
 <body class="converse-fullscreen">
@@ -44,7 +44,7 @@
         authentication: 'login',
         auto_away: 300,
         auto_reconnect: true,
-        bosh_service_url: 'http://openc.jasminmin.tech:7070/http-bind/', // Please use this connection manager only for testing purposes
+        bosh_service_url: 'http://openc.jasminmin.tech/http-bind/', // Please use this connection manager only for testing purposes
         message_archiving: 'always',
         view_mode: 'fullscreen'
     });
